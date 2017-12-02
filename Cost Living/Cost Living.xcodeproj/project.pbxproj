@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A4C5CA01FD27A8E00CC5F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5C9F1FD27A8E00CC5F50 /* AppDelegate.swift */; };
+		8A4C5CA21FD27A8E00CC5F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5CA11FD27A8E00CC5F50 /* ViewController.swift */; };
+		8A4C5CA51FD27A8E00CC5F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C5CA31FD27A8E00CC5F50 /* Main.storyboard */; };
+		8A4C5CA81FD27A8E00CC5F50 /* Cost_Living.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5CA61FD27A8E00CC5F50 /* Cost_Living.xcdatamodeld */; };
+		8A4C5CAA1FD27A8E00CC5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C5CA91FD27A8E00CC5F50 /* Assets.xcassets */; };
+		8A4C5CAD1FD27A8E00CC5F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C5CAB1FD27A8E00CC5F50 /* LaunchScreen.storyboard */; };
+		8A4C5CB81FD27A8E00CC5F50 /* Cost_LivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5CB71FD27A8E00CC5F50 /* Cost_LivingTests.swift */; };
+		8A4C5CC31FD27A8E00CC5F50 /* Cost_LivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5CC21FD27A8E00CC5F50 /* Cost_LivingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4C5CB41FD27A8E00CC5F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4C5C941FD27A8E00CC5F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4C5C9B1FD27A8E00CC5F50;
+			remoteInfo = "Cost Living";
+		};
+		8A4C5CBF1FD27A8E00CC5F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4C5C941FD27A8E00CC5F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4C5C9B1FD27A8E00CC5F50;
+			remoteInfo = "Cost Living";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A4C5C9C1FD27A8E00CC5F50 /* Cost Living.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cost Living.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4C5C9F1FD27A8E00CC5F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A4C5CA11FD27A8E00CC5F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A4C5CA41FD27A8E00CC5F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A4C5CA71FD27A8E00CC5F50 /* Cost_Living.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cost_Living.xcdatamodel; sourceTree = "<group>"; };
+		8A4C5CA91FD27A8E00CC5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4C5CAC1FD27A8E00CC5F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A4C5CAE1FD27A8E00CC5F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4C5CB31FD27A8E00CC5F50 /* Cost LivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cost LivingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4C5CB71FD27A8E00CC5F50 /* Cost_LivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost_LivingTests.swift; sourceTree = "<group>"; };
+		8A4C5CB91FD27A8E00CC5F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4C5CBE1FD27A8E00CC5F50 /* Cost LivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cost LivingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4C5CC21FD27A8E00CC5F50 /* Cost_LivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost_LivingUITests.swift; sourceTree = "<group>"; };
+		8A4C5CC41FD27A8E00CC5F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A4C5C991FD27A8E00CC5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CB01FD27A8E00CC5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CBB1FD27A8E00CC5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A4C5C931FD27A8E00CC5F50 = {
+			isa = PBXGroup;
+			children = (
+				8A4C5C9E1FD27A8E00CC5F50 /* Cost Living */,
+				8A4C5CB61FD27A8E00CC5F50 /* Cost LivingTests */,
+				8A4C5CC11FD27A8E00CC5F50 /* Cost LivingUITests */,
+				8A4C5C9D1FD27A8E00CC5F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4C5C9D1FD27A8E00CC5F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C5C9C1FD27A8E00CC5F50 /* Cost Living.app */,
+				8A4C5CB31FD27A8E00CC5F50 /* Cost LivingTests.xctest */,
+				8A4C5CBE1FD27A8E00CC5F50 /* Cost LivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4C5C9E1FD27A8E00CC5F50 /* Cost Living */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C5C9F1FD27A8E00CC5F50 /* AppDelegate.swift */,
+				8A4C5CA11FD27A8E00CC5F50 /* ViewController.swift */,
+				8A4C5CA31FD27A8E00CC5F50 /* Main.storyboard */,
+				8A4C5CA91FD27A8E00CC5F50 /* Assets.xcassets */,
+				8A4C5CAB1FD27A8E00CC5F50 /* LaunchScreen.storyboard */,
+				8A4C5CAE1FD27A8E00CC5F50 /* Info.plist */,
+				8A4C5CA61FD27A8E00CC5F50 /* Cost_Living.xcdatamodeld */,
+			);
+			path = "Cost Living";
+			sourceTree = "<group>";
+		};
+		8A4C5CB61FD27A8E00CC5F50 /* Cost LivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C5CB71FD27A8E00CC5F50 /* Cost_LivingTests.swift */,
+				8A4C5CB91FD27A8E00CC5F50 /* Info.plist */,
+			);
+			path = "Cost LivingTests";
+			sourceTree = "<group>";
+		};
+		8A4C5CC11FD27A8E00CC5F50 /* Cost LivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C5CC21FD27A8E00CC5F50 /* Cost_LivingUITests.swift */,
+				8A4C5CC41FD27A8E00CC5F50 /* Info.plist */,
+			);
+			path = "Cost LivingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A4C5C9B1FD27A8E00CC5F50 /* Cost Living */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4C5CC71FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost Living" */;
+			buildPhases = (
+				8A4C5C981FD27A8E00CC5F50 /* Sources */,
+				8A4C5C991FD27A8E00CC5F50 /* Frameworks */,
+				8A4C5C9A1FD27A8E00CC5F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cost Living";
+			productName = "Cost Living";
+			productReference = 8A4C5C9C1FD27A8E00CC5F50 /* Cost Living.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A4C5CB21FD27A8E00CC5F50 /* Cost LivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4C5CCA1FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost LivingTests" */;
+			buildPhases = (
+				8A4C5CAF1FD27A8E00CC5F50 /* Sources */,
+				8A4C5CB01FD27A8E00CC5F50 /* Frameworks */,
+				8A4C5CB11FD27A8E00CC5F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4C5CB51FD27A8E00CC5F50 /* PBXTargetDependency */,
+			);
+			name = "Cost LivingTests";
+			productName = "Cost LivingTests";
+			productReference = 8A4C5CB31FD27A8E00CC5F50 /* Cost LivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A4C5CBD1FD27A8E00CC5F50 /* Cost LivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4C5CCD1FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost LivingUITests" */;
+			buildPhases = (
+				8A4C5CBA1FD27A8E00CC5F50 /* Sources */,
+				8A4C5CBB1FD27A8E00CC5F50 /* Frameworks */,
+				8A4C5CBC1FD27A8E00CC5F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4C5CC01FD27A8E00CC5F50 /* PBXTargetDependency */,
+			);
+			name = "Cost LivingUITests";
+			productName = "Cost LivingUITests";
+			productReference = 8A4C5CBE1FD27A8E00CC5F50 /* Cost LivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A4C5C941FD27A8E00CC5F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Haidar Rais";
+				TargetAttributes = {
+					8A4C5C9B1FD27A8E00CC5F50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8A4C5CB21FD27A8E00CC5F50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A4C5C9B1FD27A8E00CC5F50;
+					};
+					8A4C5CBD1FD27A8E00CC5F50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A4C5C9B1FD27A8E00CC5F50;
+					};
+				};
+			};
+			buildConfigurationList = 8A4C5C971FD27A8E00CC5F50 /* Build configuration list for PBXProject "Cost Living" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A4C5C931FD27A8E00CC5F50;
+			productRefGroup = 8A4C5C9D1FD27A8E00CC5F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A4C5C9B1FD27A8E00CC5F50 /* Cost Living */,
+				8A4C5CB21FD27A8E00CC5F50 /* Cost LivingTests */,
+				8A4C5CBD1FD27A8E00CC5F50 /* Cost LivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A4C5C9A1FD27A8E00CC5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4C5CAD1FD27A8E00CC5F50 /* LaunchScreen.storyboard in Resources */,
+				8A4C5CAA1FD27A8E00CC5F50 /* Assets.xcassets in Resources */,
+				8A4C5CA51FD27A8E00CC5F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CB11FD27A8E00CC5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CBC1FD27A8E00CC5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A4C5C981FD27A8E00CC5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4C5CA21FD27A8E00CC5F50 /* ViewController.swift in Sources */,
+				8A4C5CA81FD27A8E00CC5F50 /* Cost_Living.xcdatamodeld in Sources */,
+				8A4C5CA01FD27A8E00CC5F50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CAF1FD27A8E00CC5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4C5CB81FD27A8E00CC5F50 /* Cost_LivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4C5CBA1FD27A8E00CC5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4C5CC31FD27A8E00CC5F50 /* Cost_LivingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A4C5CB51FD27A8E00CC5F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4C5C9B1FD27A8E00CC5F50 /* Cost Living */;
+			targetProxy = 8A4C5CB41FD27A8E00CC5F50 /* PBXContainerItemProxy */;
+		};
+		8A4C5CC01FD27A8E00CC5F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4C5C9B1FD27A8E00CC5F50 /* Cost Living */;
+			targetProxy = 8A4C5CBF1FD27A8E00CC5F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A4C5CA31FD27A8E00CC5F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4C5CA41FD27A8E00CC5F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A4C5CAB1FD27A8E00CC5F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4C5CAC1FD27A8E00CC5F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A4C5CC51FD27A8E00CC5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A4C5CC61FD27A8E00CC5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A4C5CC81FD27A8E00CC5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost Living/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-Living";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A4C5CC91FD27A8E00CC5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost Living/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-Living";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A4C5CCB1FD27A8E00CC5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost LivingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-LivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cost Living.app/Cost Living";
+			};
+			name = Debug;
+		};
+		8A4C5CCC1FD27A8E00CC5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost LivingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-LivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cost Living.app/Cost Living";
+			};
+			name = Release;
+		};
+		8A4C5CCE1FD27A8E00CC5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost LivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-LivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cost Living";
+			};
+			name = Debug;
+		};
+		8A4C5CCF1FD27A8E00CC5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cost LivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Cost-LivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cost Living";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A4C5C971FD27A8E00CC5F50 /* Build configuration list for PBXProject "Cost Living" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C5CC51FD27A8E00CC5F50 /* Debug */,
+				8A4C5CC61FD27A8E00CC5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4C5CC71FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost Living" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C5CC81FD27A8E00CC5F50 /* Debug */,
+				8A4C5CC91FD27A8E00CC5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4C5CCA1FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost LivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C5CCB1FD27A8E00CC5F50 /* Debug */,
+				8A4C5CCC1FD27A8E00CC5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4C5CCD1FD27A8E00CC5F50 /* Build configuration list for PBXNativeTarget "Cost LivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C5CCE1FD27A8E00CC5F50 /* Debug */,
+				8A4C5CCF1FD27A8E00CC5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A4C5CA61FD27A8E00CC5F50 /* Cost_Living.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A4C5CA71FD27A8E00CC5F50 /* Cost_Living.xcdatamodel */,
+			);
+			currentVersion = 8A4C5CA71FD27A8E00CC5F50 /* Cost_Living.xcdatamodel */;
+			path = Cost_Living.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A4C5C941FD27A8E00CC5F50 /* Project object */;
+}
