@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var webview: UIWebView!
     //deklarasi url web
-    let urlweb = "https://www.expatistan.com/cost-of-living"
+    let urlweb = "http://www.expatistan.com/cost-of-living"
     
     
     override func viewDidLoad() {
